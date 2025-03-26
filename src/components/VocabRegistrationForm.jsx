@@ -80,8 +80,8 @@ export default function VocabRegistrationForm() {
             <textarea className="ms-2" cols={100} ref={meaningRef} />
           </label>
         </div>
-        <div class="d-grid gap-2 col-6 mx-auto">
-        <input type="submit" className="btn btn-success" value="登録" />
+        <div className="d-grid gap-2 col-6 mx-auto">
+          <input type="submit" className="btn btn-success" value="登録" />
         </div>
       </form>
     </div>
